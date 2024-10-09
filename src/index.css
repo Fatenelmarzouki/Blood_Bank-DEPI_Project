@@ -1,0 +1,83 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+
+:root {
+--system: system-ui,
+    -apple-system,
+    "Segoe UI",
+    Roboto,
+    "Helvetica Neue",
+    "Noto Sans",
+    "Liberation Sans",
+    Arial,
+    sans-serif,
+    "Apple Color Emoji",
+    "Segoe UI Emoji",
+    "Segoe UI Symbol",
+    "Noto Color Emoji";
+    --basic_bg_color:#464746;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-style: normal;
+  line-height: normal;
+  font-family: var(--system);
+}
+
+a {
+  color: rgb(0, 0, 0);
+  display: inline-block;
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  line-height: 24px;
+}
+img {
+  width: 100%;
+  display: inline-block;
+}
+/* NavBar */
+nav{
+  background: linear-gradient(to bottom,
+    black 90%,
+    red 10%);
+}
+.navbar-toggler{
+  color: transparent;
+  border-radius:0%;
+}
+
+.pad-y {
+  padding-block: 1.5rem;
+}
+
+.pad-y {
+  padding-top: 3.5rem;
+  padding-bottom: 3rem;
+}
+nav ul li {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.active{
+  background-color: var(--basic_bg_color);
+}
+
+.bg-trans {
+  background-color: transparent;
+}
