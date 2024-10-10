@@ -4,7 +4,7 @@ export default function Team ()
 {
     return (
         <>
-            <section className='team'>
+            <section className='team pb-5'>
                 <div className="container">
                     <div className="row justify-content-around">
                         <h1 className='text-center py-5'>Our Team</h1>
