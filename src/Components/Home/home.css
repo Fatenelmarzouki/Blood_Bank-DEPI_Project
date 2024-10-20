@@ -1,0 +1,349 @@
+:root {
+    --dos: "Dosis",
+        sans-serif;
+}
+
+p {
+    letter-spacing: 0.01em;
+    color: #4d4d4d;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.home_1 {
+    background-image: url(./../../assets/imgs/home/home__photo.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 60vh;
+}
+
+.home_1 .block {
+    padding-top: 90px;
+}
+
+.home_1 .block .container {
+    background-color: rgba(255, 255, 255, 0.9);
+    width: 90%;
+}
+
+.home_1 .block .container::after {
+    content: "";
+    position: absolute;
+    background-color: transparent;
+    border: 5px solid #FE3C47;
+    z-index: 5;
+    top: 0px;
+    right: 0px;
+    width: 130px;
+    height: 130px;
+    border-bottom: 0px;
+    border-left: 0px;
+}
+
+.home_1 .block .container::before {
+    content: "";
+    position: absolute;
+    background-color: transparent;
+    border: 5px solid #FE3C47;
+    z-index: 5;
+    bottom: 0px;
+    left: 0px;
+    width: 130px;
+    height: 130px;
+    border-top: 0px;
+    border-right: 0px;
+}
+
+.home_1 .block h3 {
+    display: none;
+    color: #1A1A1A;
+    letter-spacing: 0.5em;
+}
+
+.home_1 .block h1 {
+    font-size: 32px;
+    line-height: 42px;
+    color: #1A1A1A;
+    letter-spacing: 0.03em;
+}
+
+.home_2,.blog-block,.donation .process,.opinion-block .container {
+    background-color: #F8F9FA;
+}
+
+.home_2 h4 {
+    line-height: 32px;
+    letter-spacing: 0.03em;
+    font-family: var(--dos);
+    color: rgb(26, 26, 26);
+}
+
+
+.home_2 .bt-line {
+    line-height: 42px;
+    font-size: 22px;
+}
+
+/* donation process */
+
+
+.donation .process .content-process h3 {
+    font-family: var(--dos);
+    font-size: 22px;
+    line-height: 36px;
+}
+
+.img-process.pro_1::after,
+.img-process.pro_2::after,
+.img-process.pro_3::after,
+.img-process.pro_4::after {
+    content: "1";
+    position: absolute;
+    width: 110px;
+    height: 110px;
+    background-color: #fe3c46a9;
+    color: #F8F9FA;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 0;
+    right: 0;
+}
+
+.img-process.pro_2::after {
+    content: "2";
+}
+
+.img-process.pro_3::after {
+    content: "3";
+}
+
+.img-process.pro_4::after {
+    content: "4";
+}
+
+/* counter */
+.counter {
+    background-image:
+        linear-gradient(rgb(0 0 0 / 70%), rgb(0 0 0 / 67%)), url(../../assets/imgs/home/counter_bg.jpg);
+
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+}
+
+.counter-content {
+    background-color: #fff;
+}
+
+.counter-content .counter-icon i {
+    font-size: 48px;
+    line-height: 50px;
+    color: #111;
+    opacity: 0.4;
+}
+
+.counter-content .counter-text {
+    font-family: var(--dos);
+}
+
+.counter-content .counter-text h1 {
+    font-family: var(--dos);
+    font-size: 42px;
+    line-height: 28px;
+}
+
+.counter-content .counter-text h4 {
+    font-size: 24px;
+    line-height: 36px;
+}
+
+/* volunteers */
+.volunteers .volunteer .volunteer-content {
+    font-family: var(--dos);
+    letter-spacing: 0.03em;
+}
+
+.volunteer-content h3 {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 36px;
+    color: rgb(26, 26, 26);
+}
+
+.volunteer-content h4 {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 36px;
+    color: rgb(128, 128, 128);
+}
+
+.volunteer .volunteer-icons ul li:hover i {
+    transform: translateY(-3px);
+}
+
+/* join-us */
+.join-us {
+    background-image:
+        linear-gradient(rgb(0 0 0 / 70%), rgb(0 0 0 / 67%)), url(../../assets/imgs/home/join-us.jpg);
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.join-us h1 {
+    font-family: var(--dos);
+    font-size: 42px;
+    line-height: 60px;
+}
+
+.join-us a {
+    font-size: 20px;
+    line-height: 28px;
+}
+
+/* opinions */
+.opinion {
+    background-image:
+        linear-gradient(rgb(0 0 0 / 61%), rgb(0 0 0 / 50%)), url(../../assets/imgs/home/testimonial_bg.jpg);
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.opinion-block .container {
+    width: 90%;
+    padding-top: 120px;
+    padding-bottom: 140px;
+}
+
+.opinion .active {
+    background-color: transparent;
+}
+
+.opinion .carousel-indicators [data-bs-target] {
+    width: 15px;
+    height: 15px;
+    margin-right: 10px;
+    margin-left: 3px;
+}
+
+.opinion .carousel-indicators {
+    bottom: -90px;
+    margin-bottom: 20px;
+}
+
+.opinion .carousel-indicators .active {
+    opacity: 1;
+    background-color: #fe3c46;
+}
+
+/* .opinion .carousel-item{
+    
+} */
+.opinion .carousel-item h3 {
+    color: #fe3c46;
+    font-family: var(--dos);
+    font-size: 32px;
+    line-height: 36px;
+}
+
+.opinion .carousel-item p {
+    color: #333333;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0.02em;
+}
+
+.opinion .carousel-item p i {
+    color: #808080;
+    opacity: 0.4;
+}
+
+.opinion .carousel-item h6 {
+    font-size: 18px;
+    line-height: 36px;
+    color: rgb(0, 0, 0);
+    font-family: var(--dos);
+}
+
+.opinion .carousel-item span {
+    font-size: 14px;
+    line-height: 28px;
+    color: rgb(77, 77, 77);
+}
+
+/* Campaigns */
+/* .camp-block{
+    background-color: #F8F9FA;
+}
+
+.camp-block .camp-text h3 {
+    font-family: var(--dos);
+    font-size: 24px;
+    line-height: 36px;
+}
+
+.camp-block .camp-text p {
+    font-size: 18px;
+    line-height: 28px;
+}
+.camp-block .camp-text .box{
+    background-color: #333333;
+}
+
+.camp-block .camp-text .details span {
+    font-size: 14px;
+    line-height: 14px;
+} */
+
+
+
+
+/* gallery */
+.gallery .modal-content {
+    background-color: transparent;
+    border: none;
+    border-radius: 0;
+}
+
+.gallery .modal-header {
+    border-bottom: none;
+    padding: 0;
+}
+
+.gallery .btn-close {
+    --bs-btn-close-focus-shadow: 0 0 0 0rem rgba(0, 0, 0, 0);
+}
+
+.gallery img {
+    height: 300px;
+}
+
+/* blog */
+/* .blog-block {
+    background-color: #F8F9FA;
+} */
+
+.blog .blog-block .blog-text h3 {
+    font-family: var(--dos);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: 0.03em;
+}
+
+.blog .blog-block .blog-text span {
+    font-size: 14px;
+    line-height: 28px;
+    color: rgb(77, 77, 77);
+}
+
+.blog .blog-block img {
+    height: 300px;
+}

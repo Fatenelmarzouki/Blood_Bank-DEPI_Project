@@ -2,6 +2,19 @@
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
+
+        /* home page */
+        .donation .process .content-process h3 {
+                font-size: 28px;
+                font-weight: 600;
+        }
+
+        .join-us h1 {
+                font-size:70px;
+                line-height: 65px;
+        }
+
+        /* about page  */
         .about h1::after {
                 width: 21%;
         }
@@ -9,14 +22,87 @@
 
 /*  Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
+
+        /* home page */
+        .home_1 {
+                height: 70vh;
+        }
+
+                .home_1 .block h3 {
+                display: block;
+                font-size: 24px;
+                line-height: 32px;
+        }
+
+                .home_1 .block h1 {
+                font-size: 42px;
+                line-height: 48px;
+        }
+
+        .home_2 h4 {
+                font-size: 32px;
+                line-height: 36px;
+        }
+
+        .text-head h1 {
+                font-size: 42px;
+                line-height: 36px;
+                font-weight: 600;
+        }
+
+        .text-head p {
+                font-size: 22px;
+                line-height: 32px;
+                font-weight: 400;
+        }
+
+        .icon i {
+                display: block;
+        }
+
+        .icon span::after,
+        .icon span::before {
+                content: "";
+                position: absolute;
+                width: 75px;
+                height: 2px;
+                background-color: black;
+                top: 9px;
+                left: 22px;
+        }
+
+        .icon span::before {
+                left: -84px;
+        }
+
+        /* about page  */
         .about h1::after {
                 width: 30%;
         }
-
 }
 
 /* X-Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
+
+        /* home page */
+        .home_1 {
+                height: 110vh;
+        }
+
+                .home_1 .block {
+                padding-top: 160px;
+        }
+
+                .home_1 .block .container {
+                padding-block: 35px;
+        }
+
+        .home_1 a {
+                font-size: 20px;
+                line-height: 32px;
+        }
+
+        /* about page  */
         .about h1::after {
                 width: 26%;
         }
@@ -24,7 +110,22 @@
 
 /* XX-Large devices (larger desktops, 1400px and up) */
 @media (min-width: 1400px) {
+        /* home page */
+
+        .home_1 .block h3 {
+                font-size: 32px;
+                line-height: 50px;
+                font-weight: 700;
+        }
+
+                .home_1 .block h1 {
+                font-size: 60px;
+                line-height: 70px;
+        }
+
+        /* about page  */
         .about h1::after {
                 width: 23%;
         }
+
 }

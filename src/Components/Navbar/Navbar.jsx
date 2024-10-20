@@ -15,13 +15,13 @@ export default function Navbar ()
                     <div className="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul className="navbar-nav ms-auto mb-2 mb-lg-0 fs-3">
                             <li className="nav-item">
-                                <NavLink to='/home' className="nav-link me-5 text-white rounded-2 py-2 px-4" aria-current="page">Home</NavLink>
+                                <NavLink to='/home' className="nav-link me-3 text-white rounded-2 py-2 px-4" aria-current="page">Home</NavLink>
                             </li>
                             <li className="nav-item">
-                                <NavLink to='/about' className="nav-link me-5 text-white rounded-2 py-2 px-4" aria-current="page">About</NavLink>
+                                <NavLink to='/about' className="nav-link me-3 text-white rounded-2 py-2 px-4" aria-current="page">About</NavLink>
                             </li>
                             <li className="nav-item">
-                                <NavLink to='/team' className="nav-link me-5 text-white rounded-2 py-2 px-4" aria-current="page">Team</NavLink>
+                                <NavLink to='/team' className="nav-link me-3 text-white rounded-2 py-2 px-4" aria-current="page">Team</NavLink>
                             </li>
                             <li className="nav-item">
                                 <NavLink to='/contact' className="nav-link me-3 text-white rounded-2 py-2 px-4">Contact</NavLink>

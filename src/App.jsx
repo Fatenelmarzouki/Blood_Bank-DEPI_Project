@@ -6,6 +6,7 @@ import About from './Components/About/About';
 import Contact from './Components/Contact/Contact';
 import Layout from './Components/Layout/Layout';
 import Team from './Components/Team/Team';
+import RequestForm from './Components/Request/RequestForm';
 
 
 function App() {
@@ -14,10 +15,13 @@ function App() {
     {
       path: '', element: <Layout />, children: [
         {index:true, element: <Home /> },
-        { path: 'home', element: <Home /> },
+        {
+          path: 'home', element: <Home />
+        },
         { path: 'about', element: <About /> },
         { path: 'contact', element: <Contact /> },
         { path: 'team', element: <Team /> },
+        { path: 'request', element: <RequestForm /> },
         { path: '*', element: <Notfound /> },
       ]
     },
